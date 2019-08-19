@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>To do list</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+  crossorigin="anonymous">
+    
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+
+        <div id="todo">
+                <h1>My to-do's <i id="pensil" class="fas fa-pencil-alt"></i></h1>
+                <input type="text" placeholder="Add">
+                <ul class="todos">
+                    <li><span class="todo-text">Clean the kitchen</span><span class="todo-trash"><i class="fas fa-trash-alt"></i></span></li>
+                    <li><span class="todo-text">Go to the theater</span><span class="todo-trash"><i class="fas fa-trash-alt"></i></span></li>
+                </ul>
+                <div id="buttons">
+                    <button class="save">Save</button>
+                    <button class="clear">Clear</button>
+                    <button class="showTips">Help</button>
+                </div>
+            </div>
+            <div id = "overlay">
+                <a href="javascript:void(0)" class="closeTips">&times;</a>
+                <ul class="tips">
+                    <li>To add a to-do fill in the entry field and click Enter</li>
+                    <li>To delete a to-do click on the trash can </li>
+                    <li>To clear all click Clear</li>
+                    <li>Click Save to save a to-do list</li>
+                </ul>
+            </div>
+
+
+</body>
